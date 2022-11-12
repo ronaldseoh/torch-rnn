@@ -1,14 +1,14 @@
 package = "torch-rnn"
 version = "scm-1"
 source = {
-  url = "git://github.com/jcjohnson/torch-rnn.git",
+  url = "git+https://github.com/ronaldseoh/torch-rnn.git",
 }
 description = {
   summary = "Efficient, reusable RNNs and LSTMs for Torch.",
   detailed = [[
     torch-rnn provides efficient torch/nn modules implementing LSTMs and RNNs.
   ]],
-  homepage = "https://github.com/jcjohnson/torch-rnn",
+  homepage = "https://github.com/ronaldseoh/torch-rnn",
   license = "MIT"
 }
 dependencies = {
